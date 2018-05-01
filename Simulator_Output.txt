@@ -1,0 +1,59 @@
+1 0 0 0 4 9 1 10 7 
+Cmd: 1
+Length: 9
+Packet Counter: 1Drive Command Received
+---> Direction = Forward,   Duration = 10
+2 0 0 0 4 9 2 20 7 
+Cmd: 1
+Length: 9
+Packet Counter: 2Drive Command Received
+---> Direction = Backwards,   Duration = 20
+3 0 0 0 4 9 3 30 11 
+Cmd: 1
+Length: 9
+Packet Counter: 3Drive Command Received
+---> Direction = Right,   Duration = 30
+4 0 0 0 4 9 4 40 7 
+Cmd: 1
+Length: 9
+Packet Counter: 4Drive Command Received
+---> Direction = Left,   Duration = 40
+5 0 0 0 16 8 5 6 
+Cmd: 4
+Length: 8
+Packet Counter: 5
+
+6 0 0 0 30 7 7 
+
+Arm Command Received
+---> Action = Up0
+6 0 0 0 8 8 7 7 
+Cmd: 5
+Length: 8
+Packet Counter: 6Claw Command Received
+---> Action = Open0
+7 0 0 0 10 8 6 7 
+Cmd: 4
+Length: 8
+Packet Counter: 7
+
+8 0 0 0 30 7 6 
+
+Arm Command Received
+---> Action = Down0
+8 0 0 0 8 8 8 4 
+Cmd: 5
+Length: 8
+Packet Counter: 8Claw Command Received
+---> Action = Close0
+9 0 0 0 4 9 1 14 9 
+Cmd: 1
+Length: 9
+Packet Counter: 9NACK:  Invalid CRC
+NACK:  Length error
+NACK: Invalid Command Byte
+c 0 0 0 1 7 6 
+Cmd: 3
+Length: 7
+Packet Counter: cSLEEP - Goodnight
+**** Cmd Thread Terminating ****
